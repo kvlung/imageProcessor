@@ -13,6 +13,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIAlertView *myalert = [[UIAlertView alloc]
+                            initWithTitle:@"Welcome"
+                            message:@"You've started a test OCR app"
+                            delegate:nil
+                            cancelButtonTitle:@"OK"
+                            otherButtonTitles:@"Okay", nil
+                            ];
+    
+    [myalert show];
+    
     return YES;
 }
 							

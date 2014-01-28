@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>290A4DA1-7EA2-4318-AFAA-F72BC4EF4998</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iosCameraApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>30AD3EFA-D7F1-4696-881D-5B7CFBC0A918</key>
+		<string>https://github.com/kvlung/imageProcessor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>camera/iosCameraApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>30AD3EFA-D7F1-4696-881D-5B7CFBC0A918</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kvlung/imageProcessor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>30AD3EFA-D7F1-4696-881D-5B7CFBC0A918</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>30AD3EFA-D7F1-4696-881D-5B7CFBC0A918</string>
+			<key>IDESourceControlWCCName</key>
+			<string>imageProcessor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

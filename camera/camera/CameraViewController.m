@@ -7,6 +7,7 @@
 //
 
 #import "CameraViewController.h"
+#import "tesseract.h"
 
 @interface CameraViewController ()
 
@@ -66,6 +67,27 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     
     if ([mediaType isEqualToString:(NSString *)kUTTypeImage]) {
         UIImage *image = info[UIImagePickerControllerOriginalImage];
+        
+//        Tesseract* tesseract = [[Tesseract alloc] initWithDataPath:@"tessdata" language:@"eng"];
+//        [tesseract setImage:[UIImage imageNamed:@"image_sample.jpg"]];
+//        [tesseract recognize];
+//        
+//        NSLog(@"%@", [tesseract recognizedText]);
+
+        Tesseract* tesseract = [[Tesseract alloc] initWithDataPath:@"tessdata" language:@"eng"];
+        [tesseract setImage:image];
+        [tesseract recognize];
+        
+        UIAlertView *myalert = [[UIAlertView alloc]
+                                initWithTitle:@"Text on image"
+                                message:[tesseract recognizedText]
+                                delegate:nil
+                                cancelButtonTitle:@"OK"
+                                otherButtonTitles:nil
+                                ];
+        
+        [myalert show];
+        
         
         _imageView.image = image;
         if (_newMedia)
